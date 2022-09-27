@@ -1,6 +1,6 @@
 MindBoxTest
 # Тестовое задание MindBox
-
+В MindBoxTest реализация тестового задания
 ## SQL запрос
 SELECT ProductName, CategoryName FROM Products 
 LEFT JOIN ProdAndCateg ON Products.ProductsID=ProdAndCateg.Product 
