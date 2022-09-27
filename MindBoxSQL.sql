@@ -31,5 +31,5 @@ INSERT INTO Products  VALUES (1,'Product1'),(2,'Product2'),(3,'Product3'),(4,'Pr
 INSERT INTO ProdAndCateg  VALUES (1,1),(2,2),(3,3)
 
 
---Сам заброс для выборки
+--Сам запрос для выборки
 SELECT ProductName, CategoryName FROM Products LEFT JOIN ProdAndCateg ON Products.ProductsID=ProdAndCateg.Product LEFT JOIN Category ON ProdAndCateg.Category = Category.CategoryID;
